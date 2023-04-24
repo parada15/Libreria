@@ -1,0 +1,78 @@
+@use"paleta.scss";
+
+.text{
+  //diseño del texto
+    &-uppercase {
+      text-transform: uppercase;
+     
+    }
+    
+    &-lowercase {
+      text-transform: lowercase;
+    }
+    
+    &-bold {
+      font-weight: bold;
+    }
+    
+    &-italic {
+      font-style: italic;
+    }
+    //grosor del texto
+
+
+    &-grosor1{
+        font-weight:lighter;
+    }
+
+    &-grosor2{
+        font-weight:100;
+    }
+  
+  
+  }
+
+  //color de texto
+  .color{
+&-azul{
+  color: paleta.$azul;
+}
+
+&-rojo{
+color:paleta.$rojo;
+}
+&-amarillo{
+color: paleta.$amarillo;
+}
+&-verde{
+color: paleta.$verde;
+}
+&-negro{
+color:paleta.$negro;
+}
+&-gris{
+color:paleta.$gris;
+}
+&-magenta{
+color:paleta.$magenta;
+}
+&-blanco{
+  color:paleta.$blanco;
+  }
+  }
+
+  //tamaño de texto
+  .tam{
+  &-grande {
+    font-size: 2rem;
+   
+  }
+  
+  &-peque {
+    font-size: 0.8rem;
+  }
+
+  &-mediano {
+    font-size: 1.5rem;
+  }
+  }

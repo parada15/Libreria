@@ -1,0 +1,52 @@
+//tarjetas de perfil  
+.profile-card {
+    
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  
+}
+
+.profile-card__image {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+
+
+
+
+
+//Tarjeta de producto:
+.product-card {
+  
+  border-radius: 10px;
+  width: 50%;
+  display: flex;
+  
+}
+
+.product-card__image {
+  height: 150px;
+  width: 150px;
+}
+
+
+
+
+
+
+//Tarjeta de artículo de blog:
+.blog-card {
+ 
+  border-radius: 10px;
+  width: 50%;
+  
+  display: flex;
+  
+}
+
+.blog-card__image {
+  height: 150px;
+  width: 150px;
+}

@@ -1,0 +1,95 @@
+@use"paleta.scss"; //paleta de colores se llama para usar los colores
+
+
+//estilo notificacion
+
+
+@mixin badge-notificacion {
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-color: paleta.$azul;
+  border: 1px solid paleta.$azul;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out,
+              background-color 0.15s ease-in-out,
+              border-color 0.15s ease-in-out,
+              box-shadow 0.15s ease-in-out;
+  
+  &:hover {
+    background-color: darken(paleta.$azul, 10%);
+    border-color: darken(paleta.$azul, 10%);
+  }
+  
+  &.btn-azul {
+    background-color: paleta.$azul;
+    border-color: paleta.$azul;
+  }
+}
+
+.badge-notificacion {
+  @include badge-notificacion;
+ 
+  
+}
+
+
+
+
+
+
+
+// Estilos del badge de error
+.badge-error {
+  display: inline-block;
+  border-radius: 4px;
+  line-height: 1;
+  height: 35px;
+  width: 80px;
+  text-align: center;
+}
+
+
+// Estilos del badge de advertencia
+.badge-advertencia {
+  display: inline-block;
+  border-radius: 4px;
+  line-height: 1;
+  height: 35px;
+  width: 150px;
+  text-align: center;
+}
+
+
+// Estilos del badge de exito
+.badge-exito {
+  display: inline-block;
+  
+  border-radius: 4px;
+  
+  line-height: 1;
+  height: 35px;
+  width: 70px;
+  text-align: center;
+}

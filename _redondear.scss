@@ -1,0 +1,29 @@
+
+.redon{
+    &-r {
+        border-radius: 100%;
+        
+       
+      }
+}
+
+//crearemos sombras a los elementos
+.somb{
+    &-som{
+        box-shadow: 4px 4px 5px black;
+    }
+}
+
+//ocultar elementos
+.ocultar {
+    //este oculta el elemnto y el espacio
+    &-ocul{
+        display: none;
+    }
+   //este oculta ele elemento pero reserva siempre su espacio
+    &-hi{
+    
+            visibility: hidden;
+          
+    }
+  }

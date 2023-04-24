@@ -1,0 +1,220 @@
+//bordes solid
+// Definimos los valores para los bordes
+$border-values: 1px to 50px;
+
+// Mixin para los bordes
+@mixin border($stop: null, $right: null, $bottom: null, $left: null) {
+@if $stop {
+border-top: $stop solid black;
+}
+@if $right {
+border-right: $right solid black;
+}
+@if $bottom {
+border-bottom: $bottom solid black;
+}
+@if $left {
+border-left: $left solid black;
+}
+}
+
+// Creamos las clases para los bordes
+@for $i from 1 through 50 {
+$value: $i + px;
+.b-solid#{$i} {
+@include border($value,$value,$value,$value);
+}
+
+.bt-solid#{$i} {
+@include border($value, null, null, null);
+}
+
+.br-solid#{$i} {
+@include border(null, $value, null, null);
+}
+
+.bb-solid#{$i} {
+@include border(null, null, $value, null);
+}
+
+.bl-solid#{$i} {
+@include border(null, null, null, $value);
+}
+}
+
+//bordes groove
+// Definimos los valores para los bordes
+$border-values: 1px to 50px;
+
+// Mixin para los bordes
+@mixin border-groove($stop: null, $right: null, $bottom: null, $left: null) {
+  @if $stop {
+    border-top: $stop groove yellow;
+  }
+  @if $right {
+    border-right: $right groove yellow;
+  }
+  @if $bottom {
+    border-bottom: $bottom groove yellow;
+  }
+  @if $left {
+    border-left: $left groove   yellow;
+  }
+}
+
+// Creamos las clases para los bordes
+@for $i from 1 through 50 {
+  $value: $i + px;
+  .b-groove#{$i} {
+    @include border-groove($value,$value,$value,$value);
+  }
+
+  .bt-groove#{$i} {
+    @include border-groove($value, null, null, null);
+  }
+
+  .br-groove#{$i} {
+    @include border-groove(null, $value, null, null);
+  }
+
+  .bb-groove#{$i} {
+    @include border-groove(null, null, $value, null);
+  }
+
+  .bl-groove#{$i} {
+    @include border-groove(null, null, null, $value);
+  }
+}
+
+//bordes dobles
+
+// Definimos los valores para los bordes
+$border-values: 1px to 50px;
+
+// Mixin para los bordes dobles
+@mixin border-double($stop: null, $right: null, $bottom: null, $left: null) {
+  @if $stop {
+    border-top: $stop double red;
+  }
+  @if $right {
+    border-right: $right double     red;
+  }
+  @if $bottom {
+    border-bottom: $bottom double red;
+  }
+  @if $left {
+    border-left: $left double red;
+  }
+}
+
+// Creamos las clases para los bordes dobles
+@for $i from 1 through 50 {
+  $value: $i + px;
+  .b-double#{$i} {
+    @include border-double($value,$value,$value,$value);
+  }
+
+  .bt-double#{$i} {
+    @include border-double($value, null, null, null);
+  }
+
+  .br-double#{$i} {
+    @include border-double(null, $value, null, null);
+  }
+
+  .bb-double#{$i} {
+    @include border-double(null, null, $value, null);
+  }
+
+  .bl-double#{$i} {
+    @include border-double(null, null, null, $value);
+  }
+}
+
+//bordes dotted
+// Definimos los valores para los bordes
+$border-values: 1px to 50px;
+
+// Mixin para los bordes
+@mixin border-dotted($stop: null, $right: null, $bottom: null, $left: null) {
+  @if $stop {
+    border-top: $stop dotted pink;
+  }
+  @if $right {
+    border-right: $right dotted pink;
+  }
+  @if $bottom {
+    border-bottom: $bottom dotted pink;
+  }
+  @if $left {
+    border-left: $left dotted pink;
+  }
+}
+
+// Creamos las clases para los bordes
+@for $i from 1 through 50 {
+  $value: $i + px;
+  .b-dotted#{$i} {
+    @include border-dotted($value,$value,$value,$value);
+  }
+
+  .bt-dotted#{$i} {
+    @include border-dotted($value, null, null, null);
+  }
+
+  .br-dotted#{$i} {
+    @include border-dotted(null, $value, null, null);
+  }
+
+  .bb-dotted#{$i} {
+    @include border-dotted(null, null, $value, null);
+  }
+
+  .bl-dotted#{$i} {
+    @include border-dotted(null, null, null, $value);
+  }
+}
+
+//bordes dashed
+// Definimos los valores para los bordes
+$border-values: 1px to 50px;
+
+// Mixin para los bordes
+@mixin border($stop: null, $right: null, $bottom: null, $left: null) {
+  @if $stop {
+    border-top: $stop dashed orange;
+  }
+  @if $right {
+    border-right: $right dashed orange;
+  }
+  @if $bottom {
+    border-bottom: $bottom dashed   orange;
+  }
+  @if $left {
+    border-left: $left dashed   orange;
+  }
+}
+
+// Creamos las clases para los bordes
+@for $i from 1 through 50 {
+  $value: $i + px;
+  .b-dashed#{$i} {
+    @include border($value,$value,$value,$value);
+  }
+
+  .bt-dashed#{$i} {
+    @include border($value, null, null, null);
+  }
+
+  .br-dashed#{$i} {
+    @include border(null, $value, null, null);
+  }
+
+  .bb-dashed#{$i} {
+    @include border(null, null, $value, null);
+  }
+
+  .bl-dashed#{$i} {
+    @include border(null, null, null, $value);
+  }
+}

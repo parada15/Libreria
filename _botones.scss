@@ -1,0 +1,82 @@
+
+//tamaños de botones
+  $btn-peque: 2rem;
+  $btn-medio: 3rem;
+  $bton-grande: 4rem;
+  $bton-xgrande: 5rem;
+
+
+
+.btn {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem ;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+
+   //mostraria un boton cuadrado
+    &-cuadrado {
+      background-color:cornflowerblue;
+      color: #fff;
+      
+      &:hover {
+        background-color: darken(white, 10%);
+              }
+     
+             }
+
+  //mostraria un boton redondo
+    &-redondo {
+      background-color:cornflowerblue;
+      color: #fff;
+      border-radius: 100%;
+
+      &:hover {
+          background-color: darken(white, 10%);
+              }
+              }
+     
+  //mostraria un boton semi-redondo
+  &-sredondo {
+    background-color:cornflowerblue;
+    color: #fff;
+    border-radius:20%;
+   
+    &:hover {
+        background-color: darken(white, 10%);
+            }
+            }
+           
+
+   //este apartado sirve para cambiar tamaño a los botones         
+    
+   &-peque{
+    height: $btn-peque;
+    width: auto;
+}
+&-medio{
+  height: $btn-medio;
+  width:auto;
+}
+&-grande{
+  height: $bton-grande;
+  width: auto;
+}
+&-xgrande{
+  height:$bton-xgrande;
+  width: auto;
+}
+ 
+&-definido{
+  height:4rem;
+  width: 15rem;
+}
+
+  
+   
+  
+  }
+

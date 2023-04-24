@@ -1,0 +1,46 @@
+
+@use"paleta.scss"; //fichero de la paleta de colores
+//colores para fondo
+.fondo{
+
+    &-chocolate{
+        background-color: paleta.$chocolate;
+      }
+      
+      &-magenta{
+        background-color:paleta.$magenta;
+      }
+      &-negro{
+        background-color:paleta.$negro;
+      }
+
+      &-rojo{
+        background-color:paleta.$rojo;
+      }
+
+      &-amarillo{
+        background-color:paleta.$amarillo;
+      }
+      &-verde{
+        background-color:paleta.$verde;
+      }
+      &-gris{
+        background-color:paleta.$gris;
+      }
+      &-celeste{
+        background-color:paleta.$celeste;
+      }
+      &-blanco{
+        background-color:paleta.$blanco;
+      }
+      &-rosa{
+        background-color:paleta.$rosa;
+      }
+
+      &-degrada{
+        background-color:paleta.$degrada;
+      }
+
+
+}
+

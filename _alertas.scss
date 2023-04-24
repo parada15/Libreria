@@ -1,0 +1,36 @@
+
+.alert2 {
+   background-color: #ffd800;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border:dotted black;
+    color: #ffffff;
+  }
+
+  .alert3 {
+  background-color: #cfbcbc;
+    color: #ffffff;
+   font-weight: bold;
+   padding: 1rem;
+   border-radius: 0.5rem;
+   border: outset black;
+  }
+
+//alerta para los bordes
+  .alert1 {
+    border: 5px solid #0074d9;
+    color: #000000;
+    font-style: italic;
+    padding: 1rem;
+    border-radius: 2rem;
+    
+  }
+  //alerta de texto
+ .alert {
+    background-color: #2ecc71;
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+

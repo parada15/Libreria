@@ -1,0 +1,29 @@
+
+@use"botones.scss";//estilos de botones
+@use"fondo.scss";//cambio de color de cualquier elemento
+@use"alertas.scss";// alertas de estilos diferentes
+@use"tipoTexto.scss"; //tipo, tamaño,grosor del texto
+@use"paleta.scss"; //paleta de colores
+@use"tarjetas.scss"; //tarjetas
+@use"margenes.scss"; //margenes 
+@use"redondear.scss"; //redondear elementos, ocultarlos y crear sombra al elemento
+@use"moverElementos.scss"; //mueve los elementos no lo he probado como.......
+@use"padding.scss"; //modulo para los padding no me sirvio solo los mios
+@use"grid.scss"; // sistema grid de filas y columnas 
+@use"badges.scss"; // badges no se para que sirve...........
+@use"bordes.scss"; //bordes
+@use"barrasNavegacion.scss"; //barras de navegacion....
+@use"formularios.scss"; //formulario no los pude probar -------
+@use"container.scss"; //container
+//posicionar no lo he usado
+
+.conta{
+  width: 20%;
+  height: 20%;
+}
+
+
+ 
+
+
+

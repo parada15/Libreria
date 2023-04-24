@@ -1,0 +1,164 @@
+/*
+  Un sistema Grid CSS de 12 columnas mobile-first que hace que el desarrollo de sitios web receptivos sea fácil y rápido.
+Usamos una clase de contenedor principal que contendra a la cuadricula. Dentro del contenedor hay filas(row). Las clases de fila denotan filas de contenido, que se pueden llenar con hasta 12 columnas. Las columnas deben estar anidadas dentro de una fila.
+
+Para definir el ancho de una columna, debemos declarar cuántas columnas queremos que ocupe nuestro contenido para la computadora o en pantallas grandes. Por ejemplo, si nuestro contenido debe ocupar 6 de las 12 columnas (o la mitad del contenedor), el nombre de la clase será .col-6.
+
+Si no queremos que las columnas se expandan en dispositivos móviles y pantallas pequeñas, simplemente agregamos: -sm al final del nombre de la clase de la columna. Por ejemplo, si deseamos tener dos bloques de contenido flotando uno al lado del otro en pantallas pequeñas, a cada uno se le asignará el nombre de clase .col-6-sm.
+*/
+
+.izq {
+    text-align: left;
+  }
+  
+  .der {
+    text-align: right;
+  }
+  
+  .center {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .justify {
+    text-align: justify;
+  }
+  
+  .hidden-sm {
+    display: none;
+  }
+  
+  
+  $width: 96%;
+  $gap: 4%;
+  $small: 540px;
+  $med: 720px;
+  $large: 960px;
+  
+  .container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  
+    @media only screen and (min-width: $small) {
+      width: 80%;
+    }
+  
+    @media only screen and (min-width: $large) {
+      width: 75%;
+      max-width: 60rem;
+    }
+  }
+  
+  .row {
+    position: relative;
+    width: 100%;
+  }
+  
+  .row [class^="col"] {
+    float: left;
+    margin: 0.5rem 2%;
+    min-height: 0.125rem;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .col-1,
+  .col-2,
+  .col-3,
+  .col-4,
+  .col-5,
+  .col-6,
+  .col-7,
+  .col-8,
+  .col-9,
+  .col-10,
+  .col-11,
+  .col-12 {
+    width: $width;
+  }
+  
+  .col-1-sm { 
+    width:($width / 12) - ($gap * 11 / 12); 
+  }
+  .col-2-sm { 
+    width: ($width / 6) - ($gap * 10 / 12); 
+  }
+  .col-3-sm { 
+    width: ($width / 4) - ($gap * 9 / 12); 
+  }
+  .col-4-sm { 
+    width: ($width / 3) - ($gap * 8 / 12); 
+  }
+  .col-5-sm { 
+    width: ($width / (12 / 5)) - ($gap * 7 / 12); 
+  }
+  .col-6-sm { 
+    width: ($width / 2) - ($gap * 6 / 12); 
+  }
+  .col-7-sm { 
+    width: ($width / (12 / 7)) - ($gap * 5 / 12); 
+  }
+  .col-8-sm { 
+    width: ($width / (12 / 8)) - ($gap * 4 / 12); 
+  }
+  .col-9-sm { 
+    width: ($width / (12 / 9)) - ($gap * 3 / 12); 
+  }
+  .col-10-sm { 
+    width: ($width / (12 / 10)) - ($gap * 2 / 12); 
+  }
+  .col-11-sm { 
+    width: ($width / (12 / 11)) - ($gap * 1 / 12); 
+  }
+  .col-12-sm { 
+    width: $width; 
+  }
+  
+  @media only screen and (min-width: $med) {
+    .col-1 { 
+      width:($width / 12) - ($gap * 11 / 12); 
+    }
+    .col-2 { 
+      width: ($width / 6) - ($gap * 10 / 12); 
+    }
+    .col-3 { 
+      width: ($width / 4) - ($gap * 9 / 12); 
+    }
+    .col-4 { 
+      width: ($width / 3) - ($gap * 8 / 12); 
+    }
+    .col-5 { 
+      width: ($width / (12 / 5)) - ($gap * 7 / 12); 
+    }
+    .col-6 { 
+      width: ($width / 2) - ($gap * 6 / 12); 
+    }
+    .col-7 { 
+      width: ($width / (12 / 7)) - ($gap * 5 / 12); 
+    }
+    .col-8 { 
+      width: ($width / (12 / 8)) - ($gap * 4 / 12); 
+    }
+    .col-9 { 
+      width: ($width / (12 / 9)) - ($gap * 3 / 12); 
+    }
+    .col-10 { 
+      width: ($width / (12 / 10)) - ($gap * 2 / 12); 
+    }
+    .col-11 { 
+      width: ($width / (12 / 11)) - ($gap * 1 / 12); 
+    }
+    .col-12 { 
+      width: $width; 
+    }
+  
+    .hidden-sm {
+      display: block;
+    }
+  }

@@ -1,0 +1,32 @@
+$range: 1px to 600px;
+
+@mixin padding($value) {
+  padding: $value;
+}
+
+@for $i from 1 through 600 {
+ // $value: nth($range, $i);
+  $value:$i + px;
+
+
+
+  .p-#{$i} {
+    @include padding($value);
+  }
+
+  .pt-#{$i} {
+    @include padding($value 0 0 0);
+  }
+
+  .pr-#{$i} {
+    @include padding(0 $value 0 0);
+  }
+
+  .pb-#{$i} {
+    @include padding(0 0 $value 0);
+  }
+
+  .pl-#{$i} {
+    @include padding(0 0 0 $value);
+  }
+}
