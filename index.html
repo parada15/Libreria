@@ -4,170 +4,1024 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Libreria_sass</title>
+    <title> stylus code</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="iconi.png">
 </head>
 <body>
-    <div class="alert color-magenta text-mediano text-grosor1 text-amarillo">alerta </div>
-    <div class="alert color-rojo text-bold">alerta prueba</div>
+  <!-- header -->
+  <header class="mb-20 fondo-rosa pl-225">
+  <h1 class="pl-400"> stylus code</h1>
 
-    <div class="container">
-        <button class="btn-cuadrado btn-grande fondo-blanco color-azul text-lowercase   ">cuadrado</button>
-        <button class="btn-redondo btn-grande ">redondo</button>
-        <button class="btn-sredondo btn-peque color-magenta">sredondo</button>
-        <button class="btn-redondo color-amarillo fondo-gris">defecto</button>
-      
-   
-      </div>
+ <!-- nabvar -->
+    <nav class="navbar navbar1  flexbox-justify-content--center flexbox-align-items--center   b-solid3 mt-5  text-grosor3  ">
+            <div class="nav__logo ">
+               <img class="image" src="iconi.png" alt="" >
+            </div>
+                <ul >
+                  <li> <a href="#">Inicio</a></li>
+                  <li><a href="#">Acerca de</a></li>
+                  <li><a href="#">Servicios</a></li>
+                  <li><a href="#">Descargar</a></li>
+                  <li><a href="#">Contactos</a></li>
+                </ul>
+  </nav>
+ <!-- fin Nabvar -->
+  </header>
 
-     
-      <div class="conta">
-          <p>luis</p>
-        <div class="alert color-magenta">alerta prueba conta</div>
-      </div>
-      <!-- tarjetas de perfil -->
-      <div class="profile-card">
-        <img src="ruta/a/la/imagen.jpg" alt="Foto de perfil" class="profile-card__image">
-        <div class="profile-card__info">
-          <h2 class="profile-card__name">Nombre Apellido</h2>
-          <p class="profile-card__location">Ciudad, País</p>
-        </div>
-      </div>
-      <!-- Tarjeta de producto: -->
-      <div class="product-card fondo-rojo">
-        <img src="carro.jpeg" alt="Foto del producto" class="product-card__image">
-        <div class="product-card__info">
-          <h2 class="product-card__name">Nombre del producto</h2>
-          <p class="product-card__price">$99.99</p>
-        </div>
-      </div>
-      <!-- Tarjeta de artículo de blog: -->
-      <div class="blog-card">
-        <img src="ruta/a/la/imagen.jpg" alt="Foto del artículo" class="blog-card__image">
-        <div class="blog-card__info">
-          <h2 class="blog-card__title">Título del artículo</h2>
-          <p class="blog-card__date">20 de abril de 2023</p>
-        </div>
-      </div>
 
-      <div class="somb-som fondo-blanco ml-30 mt-20   pl-50 color-blanco b-solid5 " style=" width: 600px; height: 100px;">padding</div>
-      <div class=" redon-r somb-som mt-20 fondo-rojo " style=" width: 100px; height: 100px;padding-top: 50px; padding-left: 50px;">perra</div>
+<main class="fondo-degrada">
+ <!-- filas y columnas -->
+<div class="row">
 
-<button class="btn-redondo btn-xgrande color-verde fondo-chocolate text-bold text-grosor3">siguiente</button>
+       <!-- menu  -->   
+    <div class="col-3">     
+         <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10 ">Botones</button>
+         <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10 ">Formularios</button>
+         <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10 ">Tarjetas</button>
+         <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10 ">Alertas </button>
+         <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10">Barras Navegacion</button>
+         <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10 ">Badges</button>
+         <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10">Container</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10 ">Tamaño texto</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10">Grosor Texto</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10">Color texto</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10">Tipo texto</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10">Sombras </button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10 ">Margenes</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10">padding</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10">Bordes</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10 ">Mover Elementos</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10 ">Redondear</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10">Ocultar</button>
+                <button class="btn-cuadrado btn-definido fondo-rojo text-bold mb-10">Colores</button>
+</div>
+ <!-- fin menu  --> 
+<!-- INICIA LA COLUMNA CENTRAL -->
 
-   <div class="row">
-     <div class="col-6 fondo-amarillo">
-       <ul >
-         <li>a</li>
-         <li>b</li>
-         <li>c</li>
-       </ul>
+  <!-- documentacion de los botones-->
+<div class="col-9 fondo-blanco ">    
+    <h1>Botones</h1>
+   <p>
+       Los botones son elementos que se utilizan para realizar acciones en una página web. 
+       Los botones pueden ser de diferentes tipos, tamaños y colores. 
+       Puedes utilizar estos estilos de botones para tus proyectos web.
+   </p>
 
+<button class="btn-cuadrado btn-grande fondo-blanco color-azul text-lowercase   ">cuadrado</button>
+<button class="btn-redondo btn-grande ">redondo</button>
+<button class="btn-sredondo btn-peque color-rojo">sredondo</button>
+<button class="btn">Por_defecto</button>
+     <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 m-50 ">
+         <code>
+&lt;button class="btn-cuadrado btn-grande fondo-blanco color-azul text-lowercase"&gt;cuadrado&lt;/button&gt; <br>
+&lt;button class="btn-redondo btn-grande"&gt;redondo&lt;/button&gt; <br>
+&lt;button class="btn-sredondo btn-peque color-magenta"&gt;sredondo&lt;/button&gt; <br>
+&lt;button class="btn"&gt;por_defecto&lt;/button&gt; <br>
+         </code>
      </div>
-     <div class="col-6 fondo-celeste">col2</div>
-   </div>
+</div>
+<!-- documentacion de los botones-->
 
 
-
- <div class="navbar3">
-  <ul >
-    <li>adfdf</li>
-    <li>bfdfd</li>
-    <li>cddsf</li>
-  </ul>
+<!-- formularios -->
+<!--Inicio del formulario  -->  
+<div class="col-9 fondo-blanco">
+    
+    <h1>Formularios y Elementos de formularios</h1>
+    <p class="text-grosor1 ">
+        Los formularios son elementos que se utilizan para recopilar <br> 
+        información de los usuarios. 
+        Los formularios pueden ser de diferentes tipos, tamaños y colores. <br> 
+        estos estilos de formularios puede ayudarte en tus proyectos web.
+    </p>
+ <div class="container1  mt-30 b-solid3 fondo-rosa ">
+      <form>
+                <h1 class="pb-95" >formulario de informacion</h1>
+                <label for="name">Nombre:</label>
+                <input class="b-solid3  m-10" type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+                
+                <label for="email">Email:</label>
+                <input  class="b-solid3 m-10" type="email" id="email" name="email" placeholder="example@gmail.com" required>
+                
+                <label for="password">Contraseña:</label>
+                <input class="b-solid3  m-10" type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
+                
+                <button type="submit" class=" b-solid3  m-10 fondo-celeste color-blanco">Registrarse</button>
+        </form>
  </div>
 
- <div class="container-media-queries  fondo-negro color-blanco">rejilla</div>
-
- <div class="container4 mr-60 mt-30 mb-30 fondo-gris ">
-  <form>
-      <h1 class="pb-95" >formulario de informacion</h1>
-      <label for="name">Nombre:</label>
-      <input type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
-    
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
-    
-      <label for="password">Contraseña:</label>
-      <input type="password" id="password" name="password" placeholder="Ingrese su contraseña" required>
-    
-      <button type="submit">Registrarse</button>
-    </form>
-  </div>
-
-  
-
-  <h1>Badges con SASS</h1>
- 
-  
-  <div class="container4 mr-60 mt-30 mb-30 fondo-gris ">
-   <div class="pl-300"> <h1>BADGES</h1></div>
-
-   <div class="row">
-     <div class="col-3">
-      <button type="button " class="btn btn-azul ">
-        Notifications <span class="badge-notificacion">4</span>
-      </button>
-     </div>
-     <div class="col-3">
-            
-  <div class="badge-error b-dashed4">
-    <span class="v">Error:x </span>
-    
-  </div>
-     </div>
-
-     <div class="col-3">
-       
-      <div class="badge-exito b-solid4">
-        <span class="color-blanco text-grosor3 pl-4 ">Exito </span>
-      
+      <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 ">
+           <code>
+                    &lt;form&gt; <br>
+                    &lt;h1 class="pb-95"&gt;formulario de informacion&lt;/h1&gt; <br>
+                    &lt;label for="name"&gt;Nombre:&lt;/label&gt; <br>
+                    &lt;input class="b-solid3 m-10" type="text" id="name" name="name" placeholder="Ingrese su nombre" required&gt; <br>
+                    
+                    &lt;label for="email"&gt;Email:&lt;/label&gt; <br>
+                    &lt;input class="b-solid3 m-10" type="email" id="email" name="email" placeholder="example@gmail.com" required&gt; <br>
+                    
+                    &lt;label for="password"&gt;Contraseña:&lt;/label&gt; <br>
+                    &lt;input class="b-solid3 m-10" type="password" id="password" name="password" placeholder="Ingrese su contraseña" required&gt; <br>
+                    
+                    &lt;button type="submit" class="b-solid3 m-10 fondo-celeste color-blanco"&gt;Registrarse&lt;/button&gt; <br>
+                    &lt;/form&gt;
+            </code>
       </div>
+</div>
+<!--fin del formulario-->
+
+
+<!--Inicio del formulario de contacto -->
+<div class="col-12 fondo-blanco">
+   <h1>Formulario de Contacto</h1>
+          <p>
+                Algunos de los elementos que utilizamos para los formularios &lt;input&gt;,  &lt;textarea&gt;, <br> 
+                están diseñados con la clase .form. <br>
+                Este estilo de formulario se utiliza para crear formularios de contacto. <br>
+                Estos elementos de formulario tienen un estilo predeterminado que los hace más atractivos.
+         </p>
+
+   <div class="container1 mt-30  b-solid2 fondo-gris">
+       <form>
+                <label class="m-10" for="name">Nombre:</label>
+                <input class="b-solid3  m-10" type="text" id="name" name="name" placeholder="Ingrese su nombre" required>
+            
+                <label for="email">Email:</label>
+                <input class="b-solid3  m-10" type="email" id="email" name="email" placeholder="example@gmail.com" required>
+            
+                <label for="message">Mensaje:</label>
+                <textarea class="p-10" id="message" name="message" required></textarea>
+            
+                <button type="submit" class=" b-solid1  m-10 fondo-verde color-blanco" >Enviar</button>
+       </form>
+     </div>
+
+    <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 ">
+       <code>
+          
+                &lt;form&gt;
+                &lt;label class="m-10" for="name"&gt;Nombre:&lt;/label&gt; <br>
+                &lt;input class="b-solid3 m-10" type="text" id="name" name="name" placeholder="Ingrese su nombre" required&gt; <br>
+                
+                &lt;label for="email"&gt;Email:&lt;/label&gt; <br>
+                &lt;input class="b-solid3 m-10" type="email" id="email" name="email" placeholder="example@gmail.com" required&gt; <br>
+                
+                &lt;label for="message"&gt;Mensaje:&lt;/label&gt; <br>
+                &lt;textarea class="p-10" id="message" name="message" required&gt;&lt;/textarea&gt; <br>
+                
+                &lt;button type="submit" class="b-solid1 m-10 fondo-verde color-blanco"&gt;Enviar&lt;/button&gt; <br>
+                &lt;/form&gt;
+       </code>
+   </div>
+</div>
+<!--Fin del formulario de contacto-->
+
+
+   <!--Inicio del formulario de registro Educativo-->
+<div class="col-12 fondo-blanco">
      
+        <h1>Formulario de Registro Educativo</h1>
+        <p>
+          Este formulario de registro Educativo se utiliza para recopilar información de los usuarios. <br>
+          Los formularios pueden ser de diferentes tipos, tamaños y colores. <br>
+          estos estilos de formularios puede ser de utilidad en tus proyectos web.
+        </p>
+        <div class="container1 mt-30  b-solid2 flexbox-justify-content--flex-start fondo-verde ">
+       
+            
+            <form>
+
+              
+                <label for="email">Email:</label>
+                <input class="b-solid2  m-10" type="email" id="email" name="email" placeholder="example@gmail.com" required>
+               
+                <label for="Edad">Edad:</label>
+                
+                <select class="form-input b-solid2  m-10" id="Select1">
+                  <option>Selecciona una opcion..</option>
+                  <option>Menor de 18</option>
+                  <option>Mayor de 18</option>
+                  
+                </select>
+                <label for="password">Contraseña:</label>
+                <input class="b-solid2  m-10" type="password" id="password" name="password" placeholder="Contraseña" required>
+                <label for="Edad">Categoria:</label>
+                
+                <select class="form-input b-solid2  m-10" id="Select2">
+                  <option>Selecciona una opcion..</option>
+                  <option>Estudiante</option>
+                  <option>Docente</option>
+                  
+                </select>
+
+              
+                <button type="submit" class=" b-solid1 mt-10 fondo-rojo color-blanco" >Enviar</button>
+              </form>
+              
+            </div>
+
+            <div class=" flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 fondo-negro color-blanco">
+          
+              <code>
+                 
+                        &lt;form&gt; <br>
+                        &lt;label for="email"&gt;Email:&lt;/label&gt; <br>
+                        &lt;input class="b-solid2 m-10" type="email" id="email" name="email" placeholder="example@gmail.com" required&gt; <br>
+                        
+                        &lt;label for="Edad"&gt;Edad:&lt;/label&gt; <br>
+                        
+                        &lt;select class="form-input b-solid2 m-10" id="Select1"&gt; <br>
+                        &lt;option&gt;Selecciona una opcion..&lt;/option&gt; <br>
+                        &lt;option&gt;Menor de 18&lt;/option&gt; <br>
+                        &lt;option&gt;Mayor de 18&lt;/option&gt; <br>
+                        &lt;/select&gt;
+                        
+                        &lt;label for="password"&gt;Contraseña:&lt;/label&gt; <br>
+                        &lt;input class="b-solid2 m-10" type="password" id="password" name="password" placeholder="Contraseña" required&gt; <br>
+                        
+                        &lt;label for="Edad"&gt;Categoria:&lt;/label&gt; <br>
+                        
+                        &lt;select class="form-input b-solid2 m-10" id="Select2"&gt; <br>
+                        &lt;option&gt;Selecciona una opcion..&lt;/option&gt; <br>
+                        &lt;option&gt;Estudiante&lt;/option&gt; <br>
+                        &lt;option&gt;Docente&lt;/option&gt; <br>
+                        &lt;/select&gt;
+                    
+                        &lt;button type="submit" class="b-solid1 mt-10 fondo-rojo color-blanco"&gt;Enviar&lt;/button&gt; <br>
+                         &lt;/form&gt;        
+              </code>
+            
+          </div>
+</div>
+ <!--Fin del formulario de registro Educativo-->
+
+
+
+<!-- tarjetas de perfil -->
+ <div class="col-12 fondo-blanco  ">
+            <h1>Tarjetas</h1>
+            <p>
+            Las tarjetas son una forma de mostrar información de manera organizada. <br>
+            Esta tarjeta es una tarjeta de perfil, puedes utilizar nuestra plantilla  <br>
+            de tarjetas de perfil en tus proyectos web.
+            </p>
+        <div class="profile-card fondo-rosa b-solid3 p-20 ml-20 text-bold tam-mediano mt-5">
+        <img src="fotopng.jpeg" alt="Foto de perfil" class="profile-card__image">
+        <div class="profile-card__info">
+        <h2 class="profile-card__name tam-mediano">Nombre Apellido</h2>
+        <p class="profile-card__location color-gris tam-peque">Ciudad, País</p> <br>
+        <p class="tex-bold tam-peque"> 
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptates, <br>
+        hic ex necessitatibus dicta fugit soluta quam tenetur aut? Odio ex quo qui quas cum consectetur <br>
+        rem, doloribus beatae sint.....<button class="fondo-verde color-blanco">Leer Mas</button>
+        </p>
+        </div>
+        </div>
+        <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 ml-20 ">
+            
+                <code>
+                    
+                    &lt;div class="profile-card fondo-blanco b-solid3 p-20 ml-20 text-bold tam-mediano mt-5"&gt; <br>
+                    &lt;img src="fotopng.png" alt="Foto de perfil" class="profile-card__image"&gt; <br>
+                    &lt;div class="profile-card__info"&gt; <br>
+                    &lt;h2 class="profile-card__name tam-mediano"&gt;Nombre Apellido&lt;/h2&gt; <br>
+                    &lt;p class="profile-card__location color-gris tam-peque"&gt;Ciudad, País&lt;/p&gt; &lt;br&gt; <br>
+                    &lt;p class="tex-bold tam-peque"&gt; <br>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptates, &lt;br&gt; <br>
+                        hic ex necessitatibus dicta fugit soluta quam tenetur aut? Odio ex quo qui quas cum consectetur &lt;br&gt; <br>
+                        rem, doloribus beatae sint.....&lt;button class="fondo-verde color-blanco"&gt;Leer Mas&lt;/button&gt; <br>
+                    &lt;/p&gt;<br>
+                    &lt;/div&gt; <br>
+                    &lt;/div&gt;              
+                </code>
+          </div>
+ </div>
+  <!--Fin de tarjetas de perfil-->
+
+
+ <!-- Tarjeta de producto: -->
+  <div class="col-12 fondo-blanco">
+
+    <h1>Tarjeta de artículo de blog</h1>
+      <p>
+        La plantilla de esta tarjeta puede ser utilizada  en las páginas <br>
+        principales o de inicio de un sitio web, donde se muestra uno o varios varios  <br>
+        artículos de forma resumida para que el usuario <br>
+        pueda navegar entre ellos y seleccionar el que más le interese. <br>
+        Puedes utilizar nuestra plantilla para crear tu propia tarjeta de artículo de blog. 
+      </p>
+               
+      <div class="product-card fondo-rojo b-groove3 p-20 ml-20 text-bold tam-mediano mt-5 ">
+        <img src="fotopng.jpeg" alt="Foto del producto" class="product-card__image">
+        <div class="product-card__info">
+          <h2 class="product-card__name tam-mediano">Nombre del producto</h2>
+          <p class="product-card__price color-verde tam-mediano">$99.99</p>
+          <h4 class="product-card__descripcion">Descripcion del producto:</h4>
+          <p class="tex-bold tam-peque"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptates, <br>
+            hic ex necessitatibus dicta fugit soluta quam tenetur aut? Odio ex quo qui quas cum consectetur <br>
+            rem, doloribus beatae sint.....<button class="fondo-verde color-blanco">Leer Mas</button>
+          </p>
+        </div>
+      </div>
+        <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 ml-20 ">
+                  
+          <code>
+             
+            &lt;div class="product-card fondo-rojo b-groove3 p-20 ml-20 text-bold tam-mediano mt-5"&gt; <br>
+            &lt;img src="fotopng.png" alt="Foto del producto" class="product-card__image"&gt; <br>
+            &lt;div class="product-card__info"&gt; <br>
+              &lt;h2 class="product-card__name tam-mediano"&gt;Nombre del producto&lt;/h2&gt; <br>
+              &lt;p class="product-card__price color-verde tam-mediano"&gt;$99.99&lt;/p&gt; <br>
+              &lt;h4 class="product-card__descripcion"&gt;Descripcion del producto:&lt;/h4&gt; <br>
+              &lt;p class="tex-bold tam-peque"&gt; <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptates, &lt;br&gt; <br>
+                hic ex necessitatibus dicta fugit soluta quam tenetur aut? Odio ex quo qui quas cum consectetur &lt;br&gt; <br>
+                rem, doloribus beatae sint.....&lt;button class="fondo-verde color-blanco"&gt;Leer Mas&lt;/button&gt; <br>
+              &lt;/p&gt; <br>
+            &lt;/div&gt; <br>
+          &lt;/div&gt;             
+              
+
+          </code>
+        
+      </div>
+  </div>
+ <!--Fin de tarjetas de producto-->
+
+
+   <!-- Tarjeta de artículo de blog: -->
+ <div class="col-12 fondo-blanco ">
+    <h1>Tarjeta de artículo de blog</h1>
+    
+      <p>
+        La plantilla de esta tarjeta puede ser utilizada  en las páginas <br>
+        principales o de inicio de un sitio web, donde se muestra uno o varios varios  <br>
+        artículos de forma resumida para que el usuario <br>
+        pueda navegar entre ellos y seleccionar el que más le interese. <br>
+        Puedes utilizar nuestra plantilla para crear tu propia tarjeta de artículo de blog. 
+      </p>
+              
+
+      <div class="blog-card fondo-celeste b-double3 p-20 ml-20 text-bold tam-mediano mt-5">
+        <img src="https://placehold.co/100x50" alt="Foto del artículo" class="blog-card__image">
+        <div class="blog-card__info ml-20">
+          <h2 class="blog-card__title tam-mediano text-bold">Título del artículo</h2>
+          <p class="blog-card__date  tam-peque color-gris">20 de abril de 2023</p>
+          <p class="tex-bold tam-peque"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptates, <br>
+            hic ex necessitatibus dicta fugit soluta quam tenetur aut? Odio ex quo qui quas cum consectetur <br>
+            rem, doloribus beatae sint.....<button class="fondo-verde color-blanco">Leer Mas</button>
+          </p>
+          
+        </div>
+      </div>
+
+      <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 ml-20 ">
+                  
+        <code>
+           
+          &lt;div class="blog-card fondo-celeste b-double3 p-20 ml-20 text-bold tam-mediano mt-5"&gt; <br>
+            &lt;img src="https://placehold.co/100x50" alt="Foto del artículo" class="blog-card__image"&gt; <br>
+            &lt;div class="blog-card__info ml-20"&gt; <br>
+            &lt;h2 class="blog-card__title tam-mediano text-bold"&gt;Título del artículo&lt;/h2&gt; <br>
+            &lt;p class="blog-card__date tam-peque color-gris"&gt;20 de abril de 2023&lt;/p&gt; <br>
+            &lt;p class="tex-bold tam-peque"&gt;  <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga voluptates, &lt;br&gt; <br>
+            hic ex necessitatibus dicta fugit soluta quam tenetur aut? Odio ex quo qui quas cum consectetur &lt;br&gt; <br>
+            rem, doloribus beatae sint.....&lt;button class="fondo-verde color-blanco"&gt;Leer Mas&lt;/button&gt; <br>
+          &lt;/p&gt; <br>
+                    
+           &lt;/div&gt; <br>
+          &lt;/div&gt;         
+            
+
+        </code>
+            </div>
+ </div>
+  <!--Fin de tarjetas de blog-->
+
+  <div class="col-12 fondo-blanco">
+      <!--Alert-->
+
+<!-- <div class="container fondo-chocolate"> -->
+    <h2>Alerts</h2>
+    <div class="alert " role="alert"><h4>Alerta!</h4></div>
+    <div class="alert1" role="alert1"><h4>Alerta1</h4></div>
+    <div class="alert2" role="alert2"><h4>Alerta2</h4></div>
+    <div class="alert3" role="alert3"><h4>Alerta3</h4></div>
+
+    <h3>Para agregar una alerta utilizamos:</h3>
+    <div class="container fondo-negro color-blanco">
+        <code class="container">&lt;div <span class="color-amarillo">class="alert"</span>role="alert"&gt;&lt;h4&gt;Alerta!&lt;/h4&gt;&lt;/div&gt;</code>
+    </div>      
+<!-- </div> -->
+
+<!--Fin alert-->
+  </div>
+
+
+    <!--Barras de navegacion-->
+ <div class="col-12 fondo-blanco">
+
+        <div class="container ">
+            <h2>NavBars</h2>
+            <h3>Estilo #1</h3>
+            <div class="container">
+                <div class="navbar1">
+                    <ul>
+                        <li>
+                            <a href="#">Item reemplazable 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Item reemplazable 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Item reemplazable 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h3>Estilo #2</h3>
+            <div class="container">
+                <div class="navbar2">
+                    <ul>
+                        <li>
+                            <a href="#">Item reemplazable 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Item reemplazable 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Item reemplazable 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h3>Estilo #3</h3>
+            <div class="container">
+                <div class="navbar3">
+                    <ul>
+                        <li>
+                            <a href="#">Item reemplazable 1</a>
+                        </li>
+                        <li>
+                            <a href="#">Item reemplazable 2</a>
+                        </li>
+                        <li>
+                            <a href="#">Item reemplazable 3</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <h3>Para rapidamente agregar un navbar de entre los 3 estilos que nos proporciona la libreria usamos el siguiente codigo:</h3>
+            <div class="fondo-negro color-blanco">
+                <code class="container">&lt;div class="<span class="color-amarillo">navbar1</span>"&gt; <span class="color-verde">//existe navbar1, navbar2 y navbar3</span> <br> 
+                    &lt;ul&gt; <br>
+                    &lt;li&gt;&lt;a href="#"&gt;Item reemplazable1&lt;/a&gt;&lt;/li&gt; <br>
+                    &lt;li&gt;&lt;a href="#"&gt;Item reemplazable2&lt;/a&gt;&lt;/li&gt; <br>
+                    &lt;li&gt;&lt;a href="#"&gt;Item reemplazable3&lt;/a&gt;&lt;/li&gt; <br>
+                    &lt;/ul&gt;
+                </code>
+            </div>  
+        </div>
+</div>
+<!-- fin barras navegacion -->
+
+
+ <!--BADGES-->
+<div class="col-12 fondo-blanco">
+    <h1>Badges</h1>
+            <div class="row">
+                <div class="col-3 m-10">
+                <button type="button " class="btn btn-azul color-blanco ">
+                Notificaciones <span class="badge-notificacion color-blanco fondo-rojo">4</span>
+                </button>
+                </div>
+                <div class="col-3  m-10">
+                    
+            <div class="badge-error b-dashed2 p4 fondo-rojo ">
+            <span class="color-blanco tam-mediano">Error:x </span>
+            
+            </div>
+                </div>
+        
+                <div class="col-3  m-10">
+                
+                <div class="badge-exito b-solid2 fondo-verde p-4">
+                <span class="color-blanco text-grosor3 pl-4 tam-mediano">Exito:) </span>
+                
+                </div>
+                
+            </div>
+        
+                <div class="col-3  m-10">
+                <div class="badge-advertencia b-groove4 fondo-amarillo p-7">
+                <span class="text-bold color-negro tam-mediano ">advertencia:! </span>
+                </div>
+                </div>
+        
+            </div>
+        
+            <div class="row">
+            <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 ml-20 ">
+            <code>
+            
+                    &lt;button type="button " class="btn btn-azul color-blanco "&gt;
+                Notificaciones &lt;span class="badge-notificacion color-blanco fondo-rojo"&gt;4&lt;/span&gt;
+                &lt;/button&gt;    <br> <br>
+                
+                &lt;div class="badge-error b-dashed2 p4 fondo-rojo "&gt;
+                &lt;span class="color-blanco tam-mediano"&gt;Error:x &lt;/span&gt;
+            &lt;/div&gt; <br> <br>
+
+            &lt;div class="badge-exito b-solid2 fondo-verde p-4"&gt;
+            &lt;span class="color-blanco text-grosor3 pl-4 tam-mediano"&gt;Exito:) &lt;/span&gt;
+            &lt;/div&gt; <br> <br>
+
+            &lt;div class="badge-advertencia b-groove4 fondo-amarillo p-7"&gt;
+            &lt;span class="text-bold color-negro tam-mediano "&gt;advertencia:! &lt;/span&gt;
+            &lt;/div&gt;
+            
+        </code>
+
+            </div>
+            
+            </div> 
+</div>
+     <!--FIN DE BADGES-->
+
+
+   <!-- Containers -->
+<div class="col-12 ">
+        <!-- Containers -->
+
+<div class="container fondo-gris color-negro">
+    <h2>Containers</h2>
+    <h3>Tenemos diferentes estilos de containers dentro de la libreria para tomar el que mejor se ajuste a la necesidad del momento:</h3>
+    <div class="container-flexible fondo-blanco b-dashed5">
+        <h4>.container-flexible</h4>
+    </div>
+    <div class="container containerr"></div>
+    <div class="container-rejilla fondo-blanco b-dashed5">
+        <h4>.container-rejilla</h4>
+    </div>
+    <div class="container containerr"></div>
+    <div class="container-media-queries fondo-blanco b-dashed5">
+        <h4>.container-media-queries</h4>
+    </div>
+    <div class="container containerr"></div>
+    <div class="container1 fondo-blanco b-dashed5">
+        <h4>.container1</h4>
+    </div>
+    <div class="container containerr"></div>
+    <div class="container2 fondo-blanco b-dashed5">
+        <h4>.container2</h4>
+    </div>
+    <div class="container containerr"></div>
+    <div class="container3 fondo-blanco b-dashed5">
+        <h4>.container3</h4>
+    </div>
+    <div class="container containerr"></div>
+    <div class="containerp fondo-blanco b-dashed5">
+        <h4>.containerp</h4>
+    </div>
+    <div class="container containerr"></div>
+    <div class="cont fondo-blanco b-dashed5">
+        <h4>.cont</h4>
+    </div>
+</div>
+
+
+<!-- Fin Containers -->
+
+
+
+</div>
+<!-- Fin Containers -->
+
+  <!--Tipo de texto-->
+ <div class="col-12 fondo-blanco">
+
+            <h1>Tipo de Texto</h1>
+
+            <p>
+              Para el diseño del texto contamos con la clase .text que es una clase <br>
+                que se puede utilizar en elementos de texto . <br>
+                esta cuenta con algunas subclase <br>
+
+                .text-uppercase: se utiliza para convertir todo el texto de un elemento en mayúsculas. <br>
+                .text-lowercase: se utiliza para convertir todo el texto de un elemento en minusculas. <br>
+                .text-bold: se utiliza para hacer el texto de un elemento más grueso y oscuro, para enfatizarlo. <br>
+                .text-italic: se utiliza para hacer el texto de un elemento cursivo, lo que puede ser útil para indicar énfasis o para citar palabras de otro idioma.
+                 
+                <p class="text text-bold">Este es un texto en HTML en negrita.</p>
+                <p class="text text-italic">Este es un texto en HTML en italic.</p>
+                <p class="text text-lowercase">Este es un texto en HTML en minusculas.</p>
+                <p class="text text-uppercase">Este es un texto en HTML en mayusculas.</p>
+            </p>
+
+            <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 ml-20 ">
+              <code>
+
+            &lt;p class="text text-bold">Este es un texto en HTML en negrita./p&gt; <br>
+            &lt;p class="text text-italic">Este es un texto en HTML en italic./p&gt; <br>
+            &lt;p class="text text-lowercase">Este es un texto en HTML en minusculas./p&gt; <br>
+            &lt;p class="text text-uppercase">Este es un texto en HTML en mayusculas./p&gt; 
+          </code>
+          </div>
+
+          <h1>Grosor del texto</h1>
+          <p>
+            Para este diseño contamos con la clase .text-grosor que es una clase <br>
+            que se puede utilizar en elementos de texto . <br>
+            esta cuenta con algunas subclase <br>
+
+          </p>
+          <p class=".text-grosor1">Este texto tendrá un grosor de fuente más ligero.</p>
+
+          <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 ml-20 ">
+            <code>
+
+          &lt;p .text-grosor1">Este texto tendrá un grosor de fuente más ligero./p&gt; <br>
+          
+        </code>
+        </div>
+
+        <h1>color del texto</h1>
+        <p>
+          La clase  principal es .color, y tiene varias subclases que se utilizan para aplicar diferentes colores <br>
+          de texto a un elemento . Cada subclase comienza con &- seguido del nombre del color que 
+          se quiere aplicar, por ejemplo, color-azul para aplicar un color azul al texto.
+        </p>
+        <p class="color-azul">Este es un ejemplo de texto con color azul.</p>
+        <p class="color-rojo">Este es un ejemplo de texto con color rojo.</p>
+        <p class="color-amarillo">Este es un ejemplo de texto con color amarillo.</p>
+        <p class="color-verde">Este es un ejemplo de texto con color verde.</p>
+        <p class="color-gris">Este es un ejemplo de texto con color gris.</p>
+        <p class="color-magenta">Este es un ejemplo de texto con color magenta.</p>
+
+        <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 ml-20 ">
+          <code>
+
+            &lt;p class="color-azul"&gt;Este es un ejemplo de texto con color azul.&lt;/p&gt; <br>
+            &lt;p class="color-rojo"&gt;Este es un ejemplo de texto con color rojo.&lt;/p&gt; <br>
+            &lt;p class="color-amarillo"&gt;Este es un ejemplo de texto con color amarillo.&lt;/p&gt; <br>
+            &lt;p class="color-verde"&gt;Este es un ejemplo de texto con color verde.&lt;/p&gt; <br>
+            &lt;p class="color-gris"&gt;Este es un ejemplo de texto con color gris.&lt;/p&gt; <br>
+            &lt;p class="color-magenta"&gt;Este es un ejemplo de texto con color magenta.&lt;/p&gt; <br>
+        
+      </code>
+      </div>
+
+      <h1>Tamaño de texto</h1>
+
+      <p>
+        Para este diseño contamos con la clase .tam que es una clase <br>
+        que se puede utilizar en elementos de texto . <br>
+        esta cuenta con algunas subclase <br>
+
+      </p>
+      <p class="tam-pequeno">Este texto tendrá un tamaño de fuente más pequeño.</p>
+      <p class="tam-mediano">Este texto tendrá un tamaño de fuente mediano.</p>
+      <p class="tam-grande">Este texto tendrá un tamaño de fuente más grande.</p>
+
+      <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-10 ml-20 ">
+        <code>
+
+          &lt;p class="tam-pequeno"&gt;Este texto tendrá un tamaño de fuente más pequeño.&lt;/p&gt; <br>
+          &lt;p class="tam-mediano"&gt;Este texto tendrá un tamaño de fuente mediano.&lt;/p&gt; <br>
+          &lt;p class="tam-grande"&gt;Este texto tendrá un tamaño de fuente más grande.&lt;/p&gt;
+      
+    </code>
     </div>
 
-     <div class="col-3">
-      <div class="badge-advertencia b-solid3">
-        <span class="text-bold">advertencia:! </span>
-      </div>
-     </div>
+ </div>
+   <!--FIN DE TIPO DE TEXTO-->
 
-   </div>
 
-   <div class="row">
-    <h2>explicacion</h2>
-  </div>
 
-  </div>
-  <!-- nadvar -->
-  <nav class="navbar navbar1  flexbox-justify-content--space-between flexbox-align-items--center">
-    <div class="nav__logo">
-              <a href="#">Mi Logo</a>
+
+
+
+<!-- sombras a elementos -->
+<div class="col-12 fondo-blanco ">
+        <h2>Crear sombras a elementos</h2>
+        <button class="btn-redondo btn-grande somb-som">sombra</button>
+        <h3>Hace sombra a un elemento cualquiera</h3>
+        <h3>Solo necesitas el siguiente codigo en html agregado a una clase cualquiera que hace referencia a la clase utilitaria "somb-som"</h3>
+    <div class=" container color-blanco fondo-negro  ">
+        <code class="pl-350"> somb-som</code>
+   </div> 
+</div>
+<!-- fin sombras a elementos -->
+
+
+  <!--Margin-->
+<div class="col-12 fondo-blanco ">
+
+        <div class="container ">
+            <h2>Margin</h2>
+            <div class="container">
+                <div class="redon-r mb-50 fondo-verde" style="width: 50px; height: 50px;"><svg class="container" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                </svg></div>
+                <div class="redon-r ml-100 fondo-verde" style="width: 50px; height: 50px;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+                </svg></div>
+                <div class="redon-r mt-50 fondo-verde" style="width: 50px; height: 50px;"><svg class="container" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+                </svg></div>    
             </div>
-            <ul>
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Servicios</a></li>
-              <li><a href="#">Contacto</a></li>
-            </ul>
-          </nav>
+            <h3>Para agregar margen entre elementos usamos la clase: m-(1-200), mt-(1-200), ml-(1-200), mr-(1-200), mb-(1-200) Ejemplo:</h3>
+            <div class="fondo-negro color-blanco">
+                <code class="container">&lt;p class="fondo-rosa container <span class="color-amarillo">mb-50</span>"&gt;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae eveniet quidem labore dolore rem pariatur delectus? Rem veniam dolore, dolorum nulla nisi fuga, sed atque, inventore in voluptatem odit? Omnis.&lt;/p&gt;</code>
+            </div>        
+        </div>
 
-          <nav class="navbar navbar2 ">
-            <ul class="flexbox-justify-content--space-between flexbox--row-reverse">
-              <li><a href="#">Inicio</a></li>
-              <li><a href="#">Productos</a></li>
-              <li><a href="#">Acerca de nosotros</a></li>
-              <li><a href="#">Contacto</a></li>
-            </ul>
-          </nav>
-          
-          <nav class="navbar navbar3  margin-top-70 margin-right-70 margin-left-70 margin-bottom-70 ">
-            <ul>
-              <li><button><a href="#">Inicio</a></button></li>
-              <li><button><a href="#">Noticias</a></button></li>
-              <li><button><a href="#">Eventos</a></button></li>
-              <li><button><a href="#">Contacto</a></button></li>
-            </ul>
-          </nav>
+</div>
+<!-- fin margin -->
 
+
+
+<!--Padding-->
+<div class="col-12 fondo-blanco ">
+
+    <div class="container">
+            <h2>Padding</h2>
+            <p class="fondo-rosa container">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae eveniet quidem labore dolore rem pariatur delectus? Rem   veniam dolore, dolorum nulla nisi fuga, sed atque, inventore in voluptatem odit? Omnis.</p>
+
+            <p class="fondo-rosa container pt-50"><svg class="container" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"/>
+            </svg><br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aut doloremque natus harum, aliquid sapiente, eveniet, blanditiis quaerat ipsa eius unde laborum iure fugit quia nam quasi itaque autem dolor tenetur?</p>
+            <p class="fondo-rosa container pl-100"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-left" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8z"/>
+            </svg>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae eveniet quidem labore dolore rem pariatur delectus? Rem veniam dolore, dolorum nulla nisi fuga, sed atque, inventore in voluptatem odit? Omnis.</p>
+            <p class="fondo-rosa container pr-100">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae eveniet quidem labore dolore rem pariatur delectus? Rem veniam dolore, dolorum nulla nisi fuga, sed atque, inventore in voluptatem odit? Omnis. <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-right" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
+            </svg></p>
+            <p class="fondo-rosa container pb-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae eveniet quidem labore dolore rem pariatur delectus? Rem veniam dolore, dolorum nulla nisi fuga, sed atque, inventore in voluptatem odit? Omnis. <br>
+                <svg class="container" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/>
+                </svg>
+            </p>
+            <p class="fondo-rosa container p-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae eveniet quidem labore dolore rem pariatur delectus? Rem veniam dolore, dolorum nulla nisi fuga, sed atque, inventore in voluptatem odit? Omnis.</p>
+            <h3>Agregamos padding con la clase: p-(1-600), pt-(1-600), pl-(1-600), pr-(1-600), pb-(1-600) Ejemplo:</h3>
+            <div class="fondo-negro color-blanco">
+                <code class="container">&lt;p class="fondo-rosa container p-50"&gt;Lorem ipsum dolor sit amet consectetur, adipisicing elit. Molestiae eveniet quidem labore dolore rem pariatur delectus? Rem veniam dolore, dolorum nulla nisi fuga, sed atque, inventore in voluptatem odit? Omnis.&lt;/p&gt;</code>
+            </div>        
+    </div>
+
+</div>
+<!-- fin padding -->
+
+<div class="col-12 fondo-blanco">
+                <!--MOVER ELEMENTO EN LA PANTALLA-->
+    <h1>Mover elementos</h1>
+    <p>
+      Para este diseño contamos con la clase .flexbox que es una clase <br>
+      que se puede utilizar para mover elemtos . <br>
+      esta cuenta con algunas subclase <br>
+
+      Puedes utilizar la clase .flexbox y sus diferentes modificadores (por ejemplo, .flexbox--row) 
+      que se pueden aplicar para ajustar la dirección de flujo del contenido, el espaciado y la alineación de los elementos. 
+      Asi mismo los valores:flex, flex-direction, flex-wrap, justify-content, align-items, align-content, 
+      flex-grow, flex-shrink y flex-basis.
+      <br> <br>
+      Tambien puedes utilizar la clase .grid y sus diferentes modificadores (por ejemplo, .grid--row-dense) 
+      que se pueden aplicar para ajustar la dirección y el flujo de la cuadrícula, el espaciado entre los elementos
+       y la asignación automática de espacio. Asi mismo los valores: grid, grid-template-columns, 
+      grid-template-rows, grid-gap, grid-auto-flow y grid-auto-columns.
+    </p>
+ <h1>Flex-row-reverse</h1>
+    <div class="flexbox flexbox--row-reverse flexbox-justify-content--center">
+      <button class="fondo-amarillo m-10"><div>Elemento 1</div></button>
+      <button class="fondo-amarillo m-10"><div>Elemento 2</div></button>
+      <button class="fondo-amarillo m-10"><div>Elemento 3</div></button>
+      <button class="fondo-amarillo m-10"><div>Elemento 4</div></button>
+    </div>
+    <br>
+
+    <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-5 mb-10 ">
+      <code>
+
+        &lt;div class="flexbox flexbox--row-reverse flexbox-justify-content--center"&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 1&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 2&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 3&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 4&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;/div&gt;
+    
+  </code>
+  </div>
+
+    
+    <h1>flexbox--column</h1>
+    <div class="flexbox flexbox--column">
+      <button class="fondo-amarillo m-5"><div>Elemento 1</div></button>
+      <button class="fondo-amarillo m-5"><div>Elemento 2</div></button>
+      <button class="fondo-amarillo m-5"><div>Elemento 3</div></button>
+      <button class="fondo-amarillo m-5"><div>Elemento 4</div></button>
+    </div>
+    <br>
+
+    <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-5 mb-10 ">
+      <code>
+
+        &lt;div class="flexbox flexbox--column"> <br>
+          &lt;button class="fondo-amarillo m-5"&gt;&lt;div&gt;Elemento 1&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo m-5"&gt;&lt;div&gt;Elemento 2&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo m-5"&gt;&lt;div&gt;Elemento 3&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo m-5"&gt;&lt;div&gt;Elemento 4&lt;/div&gt;&lt;/button&gt; 
+          &lt;/div&gt;
+    
+  </code>
+  </div>
+
+
+    <div class="flexbox flexbox--column-reverse">
+      <button class="fondo-amarillo m-5"><div>Elemento 1</div></button>
+      <button class="fondo-amarillo m-5"><div>Elemento 2</div></button>
+      <button class="fondo-amarillo m-5"><div>Elemento 3</div></button>
+      <button class="fondo-amarillo m-5"><div>Elemento 4</div></button>
+
+    </div>
+    <br>
+
+    <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-5 mb-10 ">
+
+      
+      <code>
+
+        &lt;div class="flexbox flexbox--column-reverse"> <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 1&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 2&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 3&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 4&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;/div&gt;
+  </code>
+
+  </div>
+
+
+   <h1>space-between</h1>
+    <div class="flexbox flexbox--row flexbox-justify-content--space-between">
+      <button class="fondo-amarillo"><div>Elemento 1</div></button>
+      <button class="fondo-amarillo"><div>Elemento 2</div></button>
+      <button class="fondo-amarillo"><div>Elemento 3</div></button>
+      <button class="fondo-amarillo"><div>Elemento 4</div></button>
+    </div> <br>
+
+    <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-5 mb-10 ">
+      <code>
+
+        &lt;div class="flexbox flexbox--row flexbox-justify-content--space-between"> <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 1&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 2&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 3&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 4&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;/div&gt;
+
+  </code>
+  </div>
+
+
+  <h1>justify-content-space-around</h1>
+    <div class="flexbox flexbox--row flexbox-justify-content--space-around">
+      <button class="fondo-amarillo"><div>Elemento 1</div></button>
+      <button class="fondo-amarillo"><div>Elemento 2</div></button>
+      <button class="fondo-amarillo"><div>Elemento 3</div></button>
+      <button class="fondo-amarillo"><div>Elemento 4</div></button>
+    </div>
+    <br>
+
+    <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-5 mb-10 ">
+      <code>
+
+        &lt;div class="flexbox flexbox--row flexbox-justify-content--space-around"> <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 1&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 2&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 3&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 4&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;/div&gt;
+
+  </code>
+  </div>
+
+  <h1> justify-content-space-evenly </h1>
+
+    <div class="flexbox flexbox--row flexbox-justify-content--space-evenly">
+      <button class="fondo-amarillo"><div>Elemento 1</div></button>
+      <button class="fondo-amarillo"><div>Elemento 2</div></button>
+      <button class="fondo-amarillo"><div>Elemento 3</div></button>
+      <button class="fondo-amarillo"><div>Elemento 4</div></button>
+    </div>
+    <br>
+
+    <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-5 mb-10 ">
+      <code>
+
+        &lt;div class="flexbox flexbox--row flexbox-justify-content--space-evenly"> <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 1&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 2&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 3&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;button class="fondo-amarillo"&gt;&lt;div&gt;Elemento 4&lt;/div&gt;&lt;/button&gt; <br>
+          &lt;/div&gt;
+
+  </code>
+  </div>
+
+  <p>
+    Tambien puedes utilizar la clase .grid y sus diferentes modificadores (por ejemplo, .grid--row-dense) 
+    que se pueden aplicar para ajustar la dirección y el flujo de la cuadrícula, el espaciado entre los elementos
+     y la asignación automática de espacio. Asi mismo los valores: grid, grid-template-columns, 
+    grid-template-rows, grid-gap, grid-auto-flow y grid-auto-columns.
+
+  </p>
+    
+
+  <h1>Grid</h1>
+  
+    <div class="grid grid--auto-flow-row grid--auto-columns-2">
+      <button class="fondo-magenta m-5"><div>Elemento 1</div> </button>
+      <button class="fondo-magenta m-5"><div>Elemento 2</div> </button>
+      <button class="fondo-magenta m-5"><div>Elemento 3</div> </button>
+      <button class="fondo-magenta m-5"><div>Elemento 4</div> </button>
+      <button class="fondo-magenta m-5"><div>Elemento 5</div> </button>
+      <button class="fondo-magenta m-5"><div>Elemento 6</div> </button>
+    </div>
+    
+    <div class="cont flexbox-justify-content--center flexbox-align-items--center b-solid3 mt-5 mb-10 ">
+      <code>
+
+        &lt;div class="grid grid--auto-flow-row grid--auto-columns-2"> <br>
+          &lt;button class="fondo-magenta m-5"&gt;&lt;div&gt;Elemento 1&lt;/div&gt; &lt;/button&gt; <br>
+          &lt;button class="fondo-magenta m-5"&gt;&lt;div&gt;Elemento 2&lt;/div&gt; &lt;/button&gt; <br>
+          &lt;button class="fondo-magenta m-5"&gt;&lt;div&gt;Elemento 3&lt;/div&gt; &lt;/button&gt; <br>
+          &lt;button class="fondo-magenta m-5"&gt;&lt;div&gt;Elemento 4&lt;/div&gt; &lt;/button&gt; <br>
+          &lt;button class="fondo-magenta m-5"&gt;&lt;div&gt;Elemento 5&lt;/div&gt; &lt;/button&gt; <br>
+          &lt;button class="fondo-magenta m-5"&gt;&lt;div&gt;Elemento 6&lt;/div&gt; &lt;/button&gt; <br>
+          &lt;/div&gt;
+
+  </code>
+  </div>
+
+</div>
+
+ <!-- redondear elementos -->
+ <div class="col-12 fondo-blanco ">
+    <h2>Redondear elementos</h2>
+     <button class="btn-cuadrado redon-r">Redondo</button>
+    <h3>redondea un elemento cualquiera </h3>
+    <h3>Solo necesitas el siguiente codigo en html dentro de una clase cualquiera que hace referencia a la clase utilitaria "redon-r"</h3>
+     <div class="container fondo-negro color-blanco">
+    <code class="pl-400">&lt;redon-r"&gt;</code>
+     </div>        
+</div>
+<!-- fin redondear elementos -->
+
+ <!--ocultar elementos -->
+<div class="col-12 fondo-blanco">
+        <h2>ocultar elementos</h2>
+        <h3>Solo necesitas el siguiente codigo en html agregado a una clase cualquiera que desees ocultar,hace referencia a la clase utilitaria "ocultar-ocul" y "ocultar-hi"</h3>
+        <p>ocultar-ocul: oculta el elemento y su espacio ocupado</p>
+        <p>ocultar-hi: Oculta el elemento dejando siempre el espacio</p>
+    <div class=" container color-blanco fondo-negro  ">
+        <code class="pl-350"> ocultar-ocul </code>
+        <code class="pl-40"> ocultar-hi </code>
+    </div>        
+</div>
+<!-- fin ocultar elementos -->
+
+
+
+ <!--colores de fondo -->
+ <div class="col-12  fondo-blanco">
+        <h2>Colores de fondo</h2>
+        <h3>Solo necesitas el siguiente codigo en html agregado a una clase cualquiera que desees ocultar,hace referencia a la clase utilitaria "fondo"</h3>
+        <button class=" btn-cuadrado btn-peque fondo-rojo text-bold mb-10 ">fondo-rojo</button>
+        <button class=" btn-cuadrado btn-peque fondo-azul text-bold mb-10 ">fondo-azul</button>
+        <button class=" btn-cuadrado btn-peque fondo-celeste text-bold mb-10 ">fondo-celeste</button>
+        <button class=" btn-cuadrado btn-peque fondo-gris text-bold mb-10 ">fondo-gris</button>
+        <button class=" btn-cuadrado btn-peque fondo-verde text-bold mb-10 ">fondo-verde</button>
+        <button class=" btn-cuadrado btn-peque fondo-negro text-bold mb-10 ">fondo-negro</button>
+        <button class=" btn-cuadrado btn-peque fondo-chocolate text-bold mb-10 ">fondo-chocolate</button>
+        <button class=" btn-cuadrado btn-peque fondo-rojo text-bold mb-10 ">fondo-rojo</button>
+        <button class=" btn-cuadrado btn-peque fondo-amarillo text-bold mb-10 ">fondo-amarillo</button>
+        <button class=" btn-cuadrado btn-peque fondo-blanco text-bold mb-10 ">fondo-blanco</button>
+        <button class=" btn-cuadrado btn-peque fondo-rosa text-bold mb-10 ">fondo-rosa</button>
+        <button class=" btn-cuadrado btn-peque fondo-degrada text-bold mb-10 ">fondo-degrada</button>
+
+    <div class=" container color-blanco fondo-negro  ">
+        <code > fondo-[rojo, Azul,celeste,gris,verde,negro,chocolate,rojo,amarillo,blanco,rosa,degrada] </code>
+        <h4>"fondo" puede tomar cualquier valor contenido en los corchetes: fondo-rojo</h4>
+    </div>        
+</div>
+<!-- fin ocultar elementos -->
+
+ <!-- fin de la row -->
+</div> <!-- fin de la row -->
+</main>
 </body>
 </html>
