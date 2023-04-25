@@ -14,22 +14,22 @@ Además, las librerías Sass pueden incluir variables, mixins y funciones que fa
 ## Explicacion de la libreria
 La libreria en sass contiene los elementos necesarios para la creacion de una página web, los elementos con los que la libreria cuenta son:
 ### Clases para crear componentes.
--Botones de diferentes estilos y tamaños
--Formularios y elementos de formulario
--Tarjetas
--Alertas de diferentes estilos
--Barras de navegación
--Badges de diferentes estilos
--Container 
+- Botones de diferentes estilos y tamaños
+- Formularios y elementos de formulario
+- Tarjetas
+- Alertas de diferentes estilos
+- Barras de navegación
+- Badges de diferentes estilos
+- Container 
 
 ### Clases utilitarias
--Modificar tamaño,grosor,color, o tipo de texto
--Crear sombras a elementos
--Crear margenes, paddings o bordes a elementos
--Mover elemntos en la pantalla
--Redondear elementos
--Ocultar elementos
--Colores de fondo
+-  tamaño,grosor,color, o tipo de texto
+- Crear sombras a elementos
+- Crear margenes, paddings o bordes a elementos
+- Mover elemntos en la pantalla
+- Redondear elementos
+- Ocultar elementos
+- Colores de fondo
 
 ## Implementarla 
 En tu editor de codigo creas un nuevo archivo index.html
