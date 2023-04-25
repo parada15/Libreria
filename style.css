@@ -86,6 +86,27 @@
 .fondo-degrada {
   background-color: rgb(230, 223, 231);
 }
+.fondo-paleta1 {
+  background-color: #863A6F;
+}
+.fondo-paleta2 {
+  background-color: #975C8D;
+}
+.fondo-paleta3 {
+  background-color: #D989B5;
+}
+.fondo-paleta4 {
+  background-color: #FFADBC;
+}
+.fondo-paleta5 {
+  background-color: #a8e6ce;
+}
+.fondo-paleta6 {
+  background-color: #301860;
+}
+.fondo-paleta7 {
+  background-color: #e5ddcb;
+}
 
 .alert2 {
   background-color: #ffd800;
@@ -162,6 +183,18 @@
 }
 .color-blanco {
   color: white;
+}
+.color-paleta1 {
+  color: #863A6F;
+}
+.color-paleta2 {
+  color: #975C8D;
+}
+.color-paleta3 {
+  color: #D989B5;
+}
+.color-paleta4 {
+  color: #FFADBC;
 }
 
 .tam-grande {
@@ -14933,7 +14966,6 @@ Si no queremos que las columnas se expandan en dispositivos móviles y pantallas
   vertical-align: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
   background-color: blue;
   border: 1px solid blue;
@@ -14986,8 +15018,8 @@ Si no queremos que las columnas se expandan en dispositivos móviles y pantallas
   display: inline-block;
   border-radius: 4px;
   line-height: 1;
-  height: 35px;
-  width: 70px;
+  height: 40px;
+  width: 90px;
   text-align: center;
 }
 
@@ -20743,7 +20775,6 @@ Si no queremos que las columnas se expandan en dispositivos móviles y pantallas
 
 /* Estilos para la primera barra de navegación */
 .navbar1 {
-  background-color: rgb(198, 198, 144);
   width: 80%;
   height: 50px;
   display: flex;
@@ -20767,10 +20798,10 @@ Si no queremos que las columnas se expandan en dispositivos móviles y pantallas
 
 /* Estilos para la segunda barra de navegación */
 .navbar2 {
-  background-color: #f2f2f2;
+  width: 90%;
+  height: 50px;
 }
 .navbar2 ul {
-  list-style: none;
   display: flex;
 }
 .navbar2 ul li {
@@ -20931,11 +20962,10 @@ form button[type=submit]:hover {
 
 .cont {
   display: flex;
-  color: aliceblue;
+  color: black;
   border-radius: 20px;
   height: 30vh;
   width: 50%;
-  background-color: rgb(10, 10, 10);
 }
 
 .container1 {
@@ -20954,4 +20984,8 @@ form button[type=submit]:hover {
 .conta {
   width: 20%;
   height: 20%;
+}
+
+.btn-cuadrado {
+  border-radius: 20px;
 }/*# sourceMappingURL=style.css.map */
